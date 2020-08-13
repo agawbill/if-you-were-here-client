@@ -1,0 +1,33 @@
+.MessageFilterContainer {
+  /* margin-bottom: 50px; */
+}
+.Button {
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  position: relative;
+  /* transition: all 0.5s ease-in-out; */
+}
+
+.Button:hover {
+  color: orange;
+  width: 100%;
+  left: 0;
+}
+
+.ButtonSelected {
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  position: relative;
+  color: orange;
+}

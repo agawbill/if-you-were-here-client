@@ -1,0 +1,23 @@
+.ContentContainer {
+  color: white;
+}
+
+.Description {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a {
+  font-weight: bold;
+  color: orange;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.Banner {
+  margin-top: 20px;
+}

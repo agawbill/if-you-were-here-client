@@ -1,0 +1,107 @@
+.ContentViewer {
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  position: fixed;
+  word-wrap: break-word;
+  z-index: 500;
+  top: -100%;
+  left: 0%;
+  background-color: #222;
+  border-bottom: 1px solid orange;
+  box-shadow: 1px 1px 1px black;
+  padding-top: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  transition: all 0.3s ease-out;
+}
+
+.ContentViewerOpen {
+  opacity: 0.99;
+  top: 0%;
+}
+
+.ContentContainer {
+  word-break: normal;
+}
+
+.CloseButton {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: orange;
+  top: 1%;
+  right: 4%;
+}
+.SubmitButton {
+  /* position: absolute; */
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: orange;
+  /* top: 1%;
+  right: 4%; */
+}
+
+.FilterOptions {
+  margin-top: 5px;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  overflow: hidden;
+  max-height: 0px;
+}
+
+.OpenFilterOptions {
+  height: auto;
+  overflow: hidden;
+  opacity: 1;
+  max-height: 100vh;
+}
+
+.Header {
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  position: relative;
+  border-bottom: 2px solid orange;
+  font-size: 15px !important;
+}
+
+@media (min-width: 600px) {
+  .ContentViewer {
+    all: initial;
+  }
+  .ContentViewerOpen {
+    all: initial;
+  }
+  .ContentContainer {
+    all: initial;
+  }
+  .CloseButton {
+    display: none;
+  }
+  .FilterOptions {
+    margin-top: 15px;
+  }
+  .Header {
+    margin-top: 5px;
+  }
+  .SubmitButton {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .FilterOptionsMiddle {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  }
+}

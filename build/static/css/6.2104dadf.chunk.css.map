@@ -1,0 +1,1 @@
+{"version":3,"sources":["FullMessage.module.css"],"names":[],"mappings":"AAAA,qCACE,YACF,CAEA,gCACE,cAAe,CACf,UAAW,CACX,iBAAkB,CAClB,sCAAgC,CAAhC,8BACF","file":"6.2104dadf.chunk.css","sourcesContent":[".MessageAttribute {\n  color: orange;\n}\n\n.MessageDate {\n  font-size: 15px;\n  color: gray;\n  font-style: italic;\n  transition: all 0.5s ease-in-out;\n}\n"]}

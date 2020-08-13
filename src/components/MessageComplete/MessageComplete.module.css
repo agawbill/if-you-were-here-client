@@ -1,0 +1,9 @@
+.MessageSuccess {
+}
+
+.MessageSuccess h3 {
+  color: lawngreen;
+}
+.MessageFailure h3 {
+  color: red;
+}

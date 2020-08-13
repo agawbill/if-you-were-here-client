@@ -1,0 +1,15 @@
+.IdentityAnswer {
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  font-size: 25px;
+  padding-top: 25px;
+  width: 50%;
+}
+
+.IdentityContent {
+  margin-top: 30px;
+}
+
+.RadioContainer {
+  margin: 0 auto;
+}

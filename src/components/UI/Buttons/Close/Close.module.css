@@ -1,0 +1,63 @@
+.CloseButton {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: orange;
+  top: 1%;
+  right: 4%;
+}
+
+.SubmitButton {
+  cursor: pointer;
+  color: orange;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 0 auto;
+  position: relative;
+}
+.SubmitButton:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: orange;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.SubmitButton:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* .ButtonInactive {
+  cursor: pointer;
+  color: gray;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  position: relative;
+} */
+
+@media (min-width: 600px) {
+  .CloseButton {
+    top: 2%;
+    right: 2%;
+  }
+}
+
+@media (max-height: 600px) {
+  .CloseButton {
+    top: 2%;
+    right: 2%;
+  }
+}

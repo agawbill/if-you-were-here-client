@@ -1,0 +1,27 @@
+.TextBox {
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  width: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.TypeWriter {
+  color: orange;
+  font-weight: bolder;
+  font-size: 25px;
+  animation: blinker 1s linear infinite;
+}
+
+.TextBox:hover {
+  cursor: pointer;
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

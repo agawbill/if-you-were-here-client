@@ -1,0 +1,12 @@
+.Messages {
+  margin-top: 50px;
+  border-left: 4px solid orange;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .Messages {
+    padding-right: 40px;
+    word-wrap: break-word;
+  }
+}

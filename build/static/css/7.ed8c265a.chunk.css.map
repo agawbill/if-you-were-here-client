@@ -1,0 +1,1 @@
+{"version":3,"sources":["Resources.module.css"],"names":[],"mappings":"AAWA,aAHE,YAMF,CAHA,QAEE,yBACF","file":"7.ed8c265a.chunk.css","sourcesContent":[".Resources {\n}\n\nh3 {\n  color: orange;\n}\n\na {\n  color: orange;\n}\n\na:hover {\n  color: orange;\n  text-decoration: underline;\n}\n"]}

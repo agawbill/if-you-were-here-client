@@ -1,0 +1,73 @@
+.Modal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 600;
+  left: 0%;
+  background-color: #222;
+  border-bottom: 1px solid orange;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  top: -100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.ModalOpen {
+  opacity: 0.98;
+  top: 0%;
+}
+
+.CloseButton {
+  position: absolute;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: orange;
+  top: 1%;
+  right: 4%;
+}
+
+@media (min-width: 600px) {
+  .Modal {
+    overflow-y: hidden;
+    position: fixed;
+    height: auto;
+    opacity: 1;
+    left: 15%;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid orange;
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+  .CloseButton {
+    top: 2%;
+    right: 2%;
+  }
+
+  .ModalOpen {
+    top: 25%;
+    opacity: 1;
+  }
+}
+
+@media (max-height: 600px) {
+  .Modal {
+    top: -1000%;
+  }
+  .CloseButton {
+    top: 2%;
+    right: 2%;
+  }
+
+  .ModalOpen {
+    top: 0%;
+    opacity: 1;
+  }
+}

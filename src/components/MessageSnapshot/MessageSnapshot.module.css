@@ -1,0 +1,44 @@
+hr {
+  align-content: center;
+  /* margin: 0 auto; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 1px;
+  width: 80px;
+  background-color: orange;
+}
+
+.Message {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.Message .MessageDate {
+  font-size: 15px;
+  color: gray;
+  font-style: italic;
+  transition: all 0.5s ease-in-out;
+}
+
+.Message:hover .MessageDate {
+  cursor: pointer;
+  color: orange;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Message .MessageDate:hover {
+  cursor: pointer;
+  color: orange;
+}
+.MessageAttribute {
+  color: orange;
+}
+
+.Message:hover {
+  cursor: pointer;
+  color: orange;
+}

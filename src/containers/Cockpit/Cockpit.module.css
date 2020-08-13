@@ -1,0 +1,7 @@
+.Cockpit {
+  position: relative;
+}
+
+.Cockpit > div {
+  position: absolute;
+}

@@ -1,0 +1,25 @@
+.SortOption {
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  position: relative;
+  font-size: 14px;
+}
+
+.SortOptionSelected {
+  cursor: pointer;
+  color: orange;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: block;
+  padding: 5px 5px;
+  margin-top: 5px;
+  position: relative;
+  font-size: 14px;
+}
